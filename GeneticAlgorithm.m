@@ -23,7 +23,7 @@ ylabel('Fitness')
 prev_max=0;
 for u=1:100
     theatre=create_map();
-    load('population.mat', 'population')
+    %load('population.mat', 'population')
     generation=1;
     age_pop=zeros(200,1);
     while(generation<1001)   
